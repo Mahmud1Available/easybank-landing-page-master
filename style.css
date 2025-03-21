@@ -391,8 +391,7 @@ button:hover {
         width: 90%;
         height: fit-content;
         padding: 2rem;
-        /* background-color: white; */
-        background-color: red;
+        background-color: white;
         z-index: 20;
         color: black;
         border-radius: 8px;
@@ -469,12 +468,12 @@ button:hover {
 
     article:first-child section:nth-child(2) {
         flex-direction: column;
-        justify-content: center;
+        justify-items: center;
         align-items: center;
     }
 
     article:first-child section:nth-child(2) div {
-        justify-content: center;
+        justify-items: center;
         align-items: center;
 
         p {
@@ -511,6 +510,15 @@ button:hover {
         justify-content: center;
         align-items: center;
         gap: 1rem;
+    }
+    footer section:nth-child(2) {
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: hsl(136, 65%, 51%);
+        }
     }
 
     footer section:nth-child(3) {
